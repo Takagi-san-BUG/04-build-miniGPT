@@ -1,0 +1,7 @@
+# Install a matching PyTorch build for your CUDA/CPU setup if needed.
+torch==2.10.0
+tiktoken==0.12.0
+tqdm==4.67.3
+keyboard==0.13.5
+matplotlib==3.10.8
+tensorboard==2.20.0
