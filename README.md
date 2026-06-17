@@ -167,12 +167,7 @@ tensorboard==2.20.0
 - 文件 MD5：`ffacae345d22ab4f1464221d8ecf92c6`
 - 压缩格式：`*.tar.bz2`，解压后即可得到 `mobvoi_seq_monkey_general_open_corpus.jsonl`
 
-下载完成后建议先做完整性校验：
-
-```shell
-md5sum mobvoi_seq_monkey_general_open_corpus.tar.bz2
-tar xvfj mobvoi_seq_monkey_general_open_corpus.tar.bz2
-```
+下载完成后建议先做完整性校验
 
 > 数据规模较大，请确保磁盘空间充足；首次跑通训练可以只用其中一小部分样本做 sanity check。
 
@@ -235,9 +230,7 @@ python src/predict.py
 ## Notes
 
 - 数据集文件默认放在仓库外层目录，使用前需要自己准备
-- 仓库默认不上传训练日志和模型权重
-- 推理依赖已有 checkpoint，纯 clone 后不能立即生成文本
-
+- 本仓库中没有暂无预训练好的模型，像尝试效果可以自行租赁GPU算力进行测试
 
 ---
 
