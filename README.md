@@ -1,4 +1,4 @@
-# <div align="center">01-build-miniGPT</div>
+# <div align="center">build-miniGPT</div>
 
 <div align="center">
   <p><strong>从零实现一个可训练、可推理的 miniGPT，并逐步加入更现代的结构设计。</strong></p>
